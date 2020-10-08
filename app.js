@@ -240,6 +240,7 @@ var UIController = (function() {
             var html, newHtml, element, accTypes;
             // Create HTML string with placeholder text
             // Developing a switch case rather than using existing if-statement:
+            // Each case represent a column and each column is either for Current Account A, or Current Account B:
             switch (accTypes) {
                 case "inc__currentAccountA":
                 element = DOMstrings.incomeContainer;
